@@ -15,7 +15,7 @@ import * as PRICES from 'app/constants/price';
 import * as TIMES from 'app/constants/time';
 
 import fridge from 'app/images/fridge.png';
-import fridgeActive from 'app/images/fridgeActive.png';
+import fridgeActive from 'app/images/fridgeActive.PNG';
 
 import oven from 'app/images/oven.png';
 import ovenActive from 'app/images/ovenActive.png';
