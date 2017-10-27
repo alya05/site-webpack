@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "993c54424273cfef4d4c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2838a7bf9a43d1bc037a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -66054,9 +66054,9 @@ module.exports = __webpack_require__.p + "/static/images/fridge.png";
 
 /***/ }),
 /* 644 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module parse failed: Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)");
+module.exports = __webpack_require__.p + "/static/images/fridgeActive.png";
 
 /***/ }),
 /* 645 */
