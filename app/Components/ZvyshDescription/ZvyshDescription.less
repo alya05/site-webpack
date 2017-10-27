@@ -1,0 +1,42 @@
+.zvysh-description {
+  height: 100%;
+
+  .zvysh-description__inner-container{
+    height: 100%;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .zvysh-description__location{
+    display: flex;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 1em;
+  }
+  .zvysh-description__text{
+    font-size: 1em;
+    font-family: 'Roboto Light', sans-serif;
+
+  }
+
+  .zvysh-description__location-icon{
+    font-size: 1.8rem;
+  }
+  .zvysh-description__text_bottom{
+    margin-left: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .zvysh-description {
+    height: max-content;
+    .zvysh-description__inner-container {
+      margin-left: 0;
+      align-items: center;
+    }
+    .zvysh-description__location{
+      display: none;
+    }
+  }
+}
+

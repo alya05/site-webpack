@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('./fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Roboto-Light.woff') format('woff'),
+       url('./fonts/Roboto-Light.ttf')  format('truetype'),
+       url('./fonts/Roboto-Light.svg#Roboto-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('./fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/Roboto-Thin.woff') format('woff'),
+  url('./fonts/Roboto-Thin.ttf') format('truetype'),
+  url('./fonts/Roboto-Thin.svg#Roboto-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+}
+
+a {
+  color: #ffffff;
+}
+
+::-webkit-scrollbar-button {
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 1%;
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ecedee
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-color: #2ebaa7;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #56999f;
+}
+
+::-webkit-resizer{
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 1%;
+  height: 0;
+}
+
+::-webkit-scrollbar{
+  width: 1%;
+}
+
+.container {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.container--visible {
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  font-family: 'Roboto Thin';
+}
+
+.spinner {
+  display: flex;
+  width: 98vw;
+  height: 100vh;
+  align-items: center;
+  justify-content:center;
+}
+
+input:focus {
+  border-color: #2ebaa7;
+  box-shadow: 0 0 7px 0 #2ebaa7;
+}
+
+textarea:focus {
+  border-color: #2ebaa7;
+  box-shadow: 0 0 7px 0 #2ebaa7;
+}
+
+
+input {
+  border-style: solid;
+  border-width: 1px;
+}
+
+input, select, textarea {
+  font-family: "Roboto";
+  outline: none;
+}
+
+input:disabled {
+  background: white;
+}
+
+::-webkit-input-placeholder {
+  color: #aaa;;
+}
+:-moz-placeholder {
+  color: #aaa;;
+}
+::-moz-placeholder {
+  color: #aaa;;
+}
+
+body {
+}
+

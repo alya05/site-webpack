@@ -1,0 +1,130 @@
+.cleaners-section{
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.cleaners-section__inner-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.cleaners-section__title{
+  margin-top: 4.9vw;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vw;
+  font-weight: 500;
+  color: #092327;
+}
+
+.cleaners-section__cleaner-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3.1vw;
+}
+
+.cleaners-section__cleaner {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 21.2vw;
+  width:  21.2vw;
+  margin: 10px 20px;
+  &--safety {
+    background: url(../../../images/trust_page__block-safety.png) no-repeat;
+    background-size: cover;
+  }
+
+  &--quality {
+    background: url(../../../images/trust_page__block-quality.png) no-repeat;
+    background-size: cover;
+  }
+
+  &--eco {
+    background: url(../../../images/trust_page__block-eco.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+.cleaners-section__cleaner-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.03vw;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0.1em 1em;
+}
+
+.cleaners-section__content {
+  display: flex;
+  flex-direction: column;
+  height: 93%;
+  width: 93%;
+  color: white;
+  background: #2ebaa7;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+
+  &--hover {
+    opacity: 1;
+    z-index: 3;
+  }
+}
+
+.cleaners-section__content-name {
+  padding-top: 1vw;
+  padding-bottom: 5px;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.cleaners-section__line {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.cleaners-section__content-text{
+  display: block;
+  width: 70%;
+  font-size: 1.1vw;
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cleaners-section__cleaner-description-container {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+
+  &--hover {
+    opacity: 0;
+  }
+}
+
+.cleaners-section__cleaner-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #2ebaa7;
+}
+
+.cleaners-section__cleaner-age {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.03vw;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0.1em 1em;
+}

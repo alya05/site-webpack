@@ -1,0 +1,117 @@
+.trust-section{
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.trust-section__inner-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.trust-section__title{
+  margin-top: 4.9vw;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vw;
+  font-weight: 500;
+  color: #092327;
+}
+
+.trust-section__argument-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3.1vw;
+}
+
+.trust-section__argument {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 21.2vw;
+  width:  21.2vw;
+  margin: 10px 20px;
+  &--safety {
+    background: url(../../../images/trust_page__block-safety.png) no-repeat;
+    background-size: cover;
+  }
+
+  &--quality {
+    background: url(../../../images/trust_page__block-quality.png) no-repeat;
+    background-size: cover;
+  }
+
+  &--eco {
+    background: url(../../../images/trust_page__block-eco.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+.trust-section__argument-title {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03vw;
+  color: #ffffff;
+  font-size: 1.5vw;
+  border: 0.11em solid #ffffff;
+  padding: 0.1em 1em;
+}
+
+
+.animation-block__inner-container-stable{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animation-block__title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03vw;
+  color: #ffffff;
+  font-size: 1.5vw;
+  border: 0.11em solid #ffffff;
+  padding: 0.1em 1em;
+}
+
+.trust-section__content {
+  display: flex;
+  flex-direction: column;
+  height: 93%;
+  width: 93%;
+  color: white;
+  background: #2ebaa7;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+
+  &:hover {
+    z-index: 2;
+    opacity: 1;
+  }
+}
+
+.trust-section__content-title {
+  padding-top: 1vw;
+  padding-bottom: 5px;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.trust-section__line {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.trust-section__content-text{
+  display: block;
+  width: 70%;
+  font-size: 1.1vw;
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
